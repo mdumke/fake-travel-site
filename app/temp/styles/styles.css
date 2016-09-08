@@ -1,0 +1,9 @@
+body {
+  background-color: #2f5576;
+  -webkit-columns: 300px 2;
+     -moz-columns: 300px 2;
+          columns: 300px 2;
+}
+body .a {
+  padding: 3px;
+}

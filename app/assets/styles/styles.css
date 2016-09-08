@@ -1,0 +1,10 @@
+$mainBlue: #2f5576;
+
+body {
+  background-color: $mainBlue;
+  columns: 300px 2;
+
+  .a {
+    padding: 3px;
+  }
+}
