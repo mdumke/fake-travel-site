@@ -44,26 +44,27 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+
 	var Person = __webpack_require__(1);
 
 	var john = new Person("John Dough");
 	john.greet();
 
-
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	var Person = function (name) {
+	"use strict";
+
+	var Person = function Person(name) {
 	  this.name = name;
 	  this.greet = function () {
 	    console.log("Hi, I'm " + this.name);
 	  };
-	}
+	};
 
 	module.exports = Person;
-
-
 
 /***/ }
 /******/ ]);
