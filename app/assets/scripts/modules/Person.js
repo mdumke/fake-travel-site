@@ -1,9 +1,11 @@
-var Person = function (name) {
-  this.name = name;
-  this.greet = function () {
-    console.log("Hi, I'm " + this.name);
-  };
+class Person {
+  constructor (name) {
+    this.name = name;
+  }
+
+  greet () {
+    console.log("Hi there, I'm " + this.name);
+  }
 }
 
-module.exports = Person;
-
+export default Person;
