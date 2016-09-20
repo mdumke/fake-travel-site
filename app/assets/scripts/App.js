@@ -1,4 +1,3 @@
-import Person from './modules/Person.js');
+import MobileMenu from './modules/MobileMenu';
 
-var john = new Person("John Dough");
-john.greet();
+var mobileMenu = new MobileMenu();
